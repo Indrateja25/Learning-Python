@@ -1,8 +1,8 @@
-magic_number = 15;
+magic_number = int(input('Enter your magic number:'))
 numbers_taken = [1,7,12,19,22]
-for x in range(0,20,5):
+for x in range(20):
     if x is magic_number:
-        print(x,' is a magic number')
+        print(x ,' is your magic number')
         break
     else:
         print(x)
